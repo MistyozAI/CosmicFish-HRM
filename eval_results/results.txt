@@ -1,0 +1,398 @@
+11:52:29  INFO  Device: cuda
+11:52:29  INFO  Loading checkpoint: /workspace/CF2.pt
+11:52:32  INFO    Config: embd=448  heads=8  block=512  H_layers=4  L_layers=4  max_steps=16  RoPE=True  GQA=True  SwiGLU=True
+11:52:34  INFO    Model ready — 82.77M parameters
+11:52:34  INFO    HRM Core: H=4 L=4 (max 16 steps)
+11:52:34  INFO  Tokenizer: gpt2 (tiktoken)
+11:52:34  INFO  Halt bias: +0.350  (original model.py default: +0.350)
+11:52:34  INFO
+============================================================
+11:52:34  INFO  Benchmark: HELLASWAG
+11:52:34  INFO  ============================================================
+11:52:34  INFO  Loading HellaSwag …
+11:52:34  INFO    HellaSwag: 10042 examples
+11:52:46  INFO    [hellaswag] 50/10042  acc=38.0%  4.2 ex/s  hrm_steps_mean=2.89
+11:53:00  INFO    [hellaswag] 100/10042  acc=35.0%  3.9 ex/s  hrm_steps_mean=3.23
+11:53:07  INFO    [hellaswag] 150/10042  acc=31.3%  4.5 ex/s  hrm_steps_mean=2.61
+11:53:14  INFO    [hellaswag] 200/10042  acc=30.5%  5.0 ex/s  hrm_steps_mean=2.24
+11:53:26  INFO    [hellaswag] 250/10042  acc=30.0%  4.8 ex/s  hrm_steps_mean=2.39
+11:53:32  INFO    [hellaswag] 300/10042  acc=31.0%  5.2 ex/s  hrm_steps_mean=2.13
+11:53:42  INFO    [hellaswag] 350/10042  acc=31.1%  5.2 ex/s  hrm_steps_mean=2.11
+11:53:50  INFO    [hellaswag] 400/10042  acc=33.2%  5.3 ex/s  hrm_steps_mean=2.05
+11:53:59  INFO    [hellaswag] 450/10042  acc=34.7%  5.3 ex/s  hrm_steps_mean=2.03
+11:54:11  INFO    [hellaswag] 500/10042  acc=35.0%  5.2 ex/s  hrm_steps_mean=2.12
+11:54:22  INFO    [hellaswag] 550/10042  acc=35.1%  5.1 ex/s  hrm_steps_mean=2.18
+11:54:31  INFO    [hellaswag] 600/10042  acc=36.0%  5.1 ex/s  hrm_steps_mean=2.17
+11:54:42  INFO    [hellaswag] 650/10042  acc=35.8%  5.1 ex/s  hrm_steps_mean=2.20
+11:54:48  INFO    [hellaswag] 700/10042  acc=36.3%  5.2 ex/s  hrm_steps_mean=2.11
+11:55:00  INFO    [hellaswag] 750/10042  acc=36.4%  5.1 ex/s  hrm_steps_mean=2.17
+11:55:12  INFO    [hellaswag] 800/10042  acc=35.9%  5.1 ex/s  hrm_steps_mean=2.22
+11:55:20  INFO    [hellaswag] 850/10042  acc=35.5%  5.1 ex/s  hrm_steps_mean=2.18
+11:55:25  INFO    [hellaswag] 900/10042  acc=35.3%  5.3 ex/s  hrm_steps_mean=2.08
+11:55:37  INFO    [hellaswag] 950/10042  acc=35.3%  5.2 ex/s  hrm_steps_mean=2.13
+11:55:45  INFO    [hellaswag] 1000/10042  acc=34.8%  5.2 ex/s  hrm_steps_mean=2.09
+11:55:54  INFO    [hellaswag] 1050/10042  acc=34.7%  5.3 ex/s  hrm_steps_mean=2.08
+11:56:00  INFO    [hellaswag] 1100/10042  acc=34.5%  5.3 ex/s  hrm_steps_mean=2.03
+11:56:10  INFO    [hellaswag] 1150/10042  acc=34.7%  5.3 ex/s  hrm_steps_mean=2.03
+11:56:20  INFO    [hellaswag] 1200/10042  acc=34.8%  5.3 ex/s  hrm_steps_mean=2.05
+11:56:30  INFO    [hellaswag] 1250/10042  acc=34.5%  5.3 ex/s  hrm_steps_mean=2.05
+11:56:38  INFO    [hellaswag] 1300/10042  acc=33.9%  5.3 ex/s  hrm_steps_mean=2.02
+11:56:45  INFO    [hellaswag] 1350/10042  acc=33.9%  5.4 ex/s  hrm_steps_mean=1.99
+11:56:53  INFO    [hellaswag] 1400/10042  acc=33.9%  5.4 ex/s  hrm_steps_mean=1.97
+11:57:00  INFO    [hellaswag] 1450/10042  acc=33.7%  5.5 ex/s  hrm_steps_mean=1.95
+11:57:06  INFO    [hellaswag] 1500/10042  acc=33.7%  5.5 ex/s  hrm_steps_mean=1.90
+11:57:15  INFO    [hellaswag] 1550/10042  acc=33.8%  5.5 ex/s  hrm_steps_mean=1.91
+11:57:21  INFO    [hellaswag] 1600/10042  acc=33.6%  5.6 ex/s  hrm_steps_mean=1.86
+11:57:28  INFO    [hellaswag] 1650/10042  acc=33.5%  5.6 ex/s  hrm_steps_mean=1.84
+11:57:37  INFO    [hellaswag] 1700/10042  acc=33.2%  5.6 ex/s  hrm_steps_mean=1.84
+11:57:45  INFO    [hellaswag] 1750/10042  acc=33.0%  5.6 ex/s  hrm_steps_mean=1.84
+11:57:54  INFO    [hellaswag] 1800/10042  acc=33.1%  5.6 ex/s  hrm_steps_mean=1.83
+11:58:00  INFO    [hellaswag] 1850/10042  acc=33.1%  5.7 ex/s  hrm_steps_mean=1.81
+11:58:11  INFO    [hellaswag] 1900/10042  acc=32.7%  5.6 ex/s  hrm_steps_mean=1.82
+11:58:22  INFO    [hellaswag] 1950/10042  acc=32.7%  5.6 ex/s  hrm_steps_mean=1.85
+11:58:33  INFO    [hellaswag] 2000/10042  acc=32.5%  5.6 ex/s  hrm_steps_mean=1.87
+11:58:41  INFO    [hellaswag] 2050/10042  acc=32.4%  5.6 ex/s  hrm_steps_mean=1.86
+11:58:50  INFO    [hellaswag] 2100/10042  acc=32.3%  5.6 ex/s  hrm_steps_mean=1.85
+11:59:00  INFO    [hellaswag] 2150/10042  acc=32.3%  5.6 ex/s  hrm_steps_mean=1.86
+11:59:06  INFO    [hellaswag] 2200/10042  acc=32.3%  5.6 ex/s  hrm_steps_mean=1.83
+11:59:15  INFO    [hellaswag] 2250/10042  acc=32.4%  5.6 ex/s  hrm_steps_mean=1.83
+11:59:23  INFO    [hellaswag] 2300/10042  acc=32.3%  5.6 ex/s  hrm_steps_mean=1.82
+11:59:31  INFO    [hellaswag] 2350/10042  acc=32.3%  5.6 ex/s  hrm_steps_mean=1.80
+11:59:39  INFO    [hellaswag] 2400/10042  acc=32.2%  5.6 ex/s  hrm_steps_mean=1.79
+11:59:49  INFO    [hellaswag] 2450/10042  acc=32.1%  5.6 ex/s  hrm_steps_mean=1.80
+11:59:56  INFO    [hellaswag] 2500/10042  acc=32.4%  5.7 ex/s  hrm_steps_mean=1.78
+12:00:03  INFO    [hellaswag] 2550/10042  acc=32.3%  5.7 ex/s  hrm_steps_mean=1.76
+12:00:12  INFO    [hellaswag] 2600/10042  acc=32.2%  5.7 ex/s  hrm_steps_mean=1.76
+12:00:23  INFO    [hellaswag] 2650/10042  acc=32.2%  5.6 ex/s  hrm_steps_mean=1.78
+12:00:32  INFO    [hellaswag] 2700/10042  acc=32.2%  5.6 ex/s  hrm_steps_mean=1.77
+12:00:43  INFO    [hellaswag] 2750/10042  acc=32.1%  5.6 ex/s  hrm_steps_mean=1.78
+12:00:49  INFO    [hellaswag] 2800/10042  acc=32.1%  5.7 ex/s  hrm_steps_mean=1.76
+12:00:57  INFO    [hellaswag] 2850/10042  acc=32.1%  5.7 ex/s  hrm_steps_mean=1.76
+12:01:06  INFO    [hellaswag] 2900/10042  acc=32.2%  5.7 ex/s  hrm_steps_mean=1.75
+12:01:14  INFO    [hellaswag] 2950/10042  acc=32.4%  5.7 ex/s  hrm_steps_mean=1.75
+12:01:26  INFO    [hellaswag] 3000/10042  acc=32.5%  5.6 ex/s  hrm_steps_mean=1.77
+12:01:34  INFO    [hellaswag] 3050/10042  acc=32.3%  5.7 ex/s  hrm_steps_mean=1.76
+12:01:44  INFO    [hellaswag] 3100/10042  acc=32.5%  5.6 ex/s  hrm_steps_mean=1.76
+12:01:54  INFO    [hellaswag] 3150/10042  acc=32.6%  5.6 ex/s  hrm_steps_mean=1.77
+12:02:05  INFO    [hellaswag] 3200/10042  acc=32.7%  5.6 ex/s  hrm_steps_mean=1.78
+12:02:13  INFO    [hellaswag] 3250/10042  acc=32.6%  5.6 ex/s  hrm_steps_mean=1.77
+12:02:26  INFO    [hellaswag] 3300/10042  acc=32.4%  5.6 ex/s  hrm_steps_mean=1.79
+12:02:40  INFO    [hellaswag] 3350/10042  acc=32.2%  5.5 ex/s  hrm_steps_mean=1.82
+12:02:54  INFO    [hellaswag] 3400/10042  acc=31.9%  5.5 ex/s  hrm_steps_mean=1.84
+12:03:05  INFO    [hellaswag] 3450/10042  acc=31.7%  5.5 ex/s  hrm_steps_mean=1.85
+12:03:18  INFO    [hellaswag] 3500/10042  acc=31.5%  5.4 ex/s  hrm_steps_mean=1.86
+12:03:36  INFO    [hellaswag] 3550/10042  acc=31.4%  5.4 ex/s  hrm_steps_mean=1.91
+12:03:48  INFO    [hellaswag] 3600/10042  acc=31.2%  5.3 ex/s  hrm_steps_mean=1.92
+12:04:02  INFO    [hellaswag] 3650/10042  acc=31.2%  5.3 ex/s  hrm_steps_mean=1.95
+12:04:19  INFO    [hellaswag] 3700/10042  acc=31.1%  5.3 ex/s  hrm_steps_mean=1.98
+12:04:33  INFO    [hellaswag] 3750/10042  acc=30.9%  5.2 ex/s  hrm_steps_mean=2.00
+12:04:47  INFO    [hellaswag] 3800/10042  acc=30.9%  5.2 ex/s  hrm_steps_mean=2.02
+12:04:58  INFO    [hellaswag] 3850/10042  acc=30.9%  5.2 ex/s  hrm_steps_mean=2.03
+12:05:15  INFO    [hellaswag] 3900/10042  acc=30.7%  5.1 ex/s  hrm_steps_mean=2.07
+12:05:29  INFO    [hellaswag] 3950/10042  acc=30.5%  5.1 ex/s  hrm_steps_mean=2.09
+12:05:41  INFO    [hellaswag] 4000/10042  acc=30.3%  5.1 ex/s  hrm_steps_mean=2.10
+12:05:52  INFO    [hellaswag] 4050/10042  acc=30.2%  5.1 ex/s  hrm_steps_mean=2.11
+12:06:04  INFO    [hellaswag] 4100/10042  acc=30.2%  5.1 ex/s  hrm_steps_mean=2.12
+12:06:18  INFO    [hellaswag] 4150/10042  acc=30.1%  5.0 ex/s  hrm_steps_mean=2.14
+12:06:35  INFO    [hellaswag] 4200/10042  acc=30.0%  5.0 ex/s  hrm_steps_mean=2.17
+12:06:50  INFO    [hellaswag] 4250/10042  acc=30.0%  5.0 ex/s  hrm_steps_mean=2.20
+12:07:04  INFO    [hellaswag] 4300/10042  acc=30.0%  4.9 ex/s  hrm_steps_mean=2.22
+12:07:18  INFO    [hellaswag] 4350/10042  acc=29.9%  4.9 ex/s  hrm_steps_mean=2.23
+12:07:31  INFO    [hellaswag] 4400/10042  acc=29.8%  4.9 ex/s  hrm_steps_mean=2.25
+12:07:47  INFO    [hellaswag] 4450/10042  acc=29.8%  4.9 ex/s  hrm_steps_mean=2.28
+12:08:00  INFO    [hellaswag] 4500/10042  acc=29.6%  4.9 ex/s  hrm_steps_mean=2.29
+12:08:17  INFO    [hellaswag] 4550/10042  acc=29.5%  4.8 ex/s  hrm_steps_mean=2.32
+12:08:30  INFO    [hellaswag] 4600/10042  acc=29.4%  4.8 ex/s  hrm_steps_mean=2.34
+12:08:43  INFO    [hellaswag] 4650/10042  acc=29.3%  4.8 ex/s  hrm_steps_mean=2.35
+12:08:55  INFO    [hellaswag] 4700/10042  acc=29.3%  4.8 ex/s  hrm_steps_mean=2.35
+12:09:08  INFO    [hellaswag] 4750/10042  acc=29.1%  4.8 ex/s  hrm_steps_mean=2.37
+12:09:19  INFO    [hellaswag] 4800/10042  acc=29.1%  4.8 ex/s  hrm_steps_mean=2.37
+12:09:32  INFO    [hellaswag] 4850/10042  acc=28.9%  4.8 ex/s  hrm_steps_mean=2.38
+12:09:47  INFO    [hellaswag] 4900/10042  acc=28.9%  4.7 ex/s  hrm_steps_mean=2.40
+12:10:03  INFO    [hellaswag] 4950/10042  acc=28.9%  4.7 ex/s  hrm_steps_mean=2.42
+12:10:19  INFO    [hellaswag] 5000/10042  acc=28.9%  4.7 ex/s  hrm_steps_mean=2.44
+12:10:34  INFO    [hellaswag] 5050/10042  acc=28.9%  4.7 ex/s  hrm_steps_mean=2.46
+12:10:45  INFO    [hellaswag] 5100/10042  acc=28.8%  4.7 ex/s  hrm_steps_mean=2.46
+12:11:00  INFO    [hellaswag] 5150/10042  acc=28.6%  4.7 ex/s  hrm_steps_mean=2.48
+12:11:08  INFO    [hellaswag] 5200/10042  acc=28.7%  4.7 ex/s  hrm_steps_mean=2.47
+12:11:22  INFO    [hellaswag] 5250/10042  acc=28.6%  4.7 ex/s  hrm_steps_mean=2.48
+12:11:35  INFO    [hellaswag] 5300/10042  acc=28.4%  4.6 ex/s  hrm_steps_mean=2.49
+12:11:50  INFO    [hellaswag] 5350/10042  acc=28.3%  4.6 ex/s  hrm_steps_mean=2.50
+12:12:05  INFO    [hellaswag] 5400/10042  acc=28.2%  4.6 ex/s  hrm_steps_mean=2.52
+12:12:22  INFO    [hellaswag] 5450/10042  acc=28.3%  4.6 ex/s  hrm_steps_mean=2.54
+12:12:31  INFO    [hellaswag] 5500/10042  acc=28.3%  4.6 ex/s  hrm_steps_mean=2.54
+12:12:45  INFO    [hellaswag] 5550/10042  acc=28.3%  4.6 ex/s  hrm_steps_mean=2.55
+12:13:00  INFO    [hellaswag] 5600/10042  acc=28.3%  4.6 ex/s  hrm_steps_mean=2.56
+12:13:13  INFO    [hellaswag] 5650/10042  acc=28.2%  4.6 ex/s  hrm_steps_mean=2.57
+12:13:29  INFO    [hellaswag] 5700/10042  acc=28.1%  4.5 ex/s  hrm_steps_mean=2.59
+12:13:42  INFO    [hellaswag] 5750/10042  acc=28.1%  4.5 ex/s  hrm_steps_mean=2.60
+12:13:52  INFO    [hellaswag] 5800/10042  acc=28.1%  4.5 ex/s  hrm_steps_mean=2.60
+12:14:06  INFO    [hellaswag] 5850/10042  acc=28.1%  4.5 ex/s  hrm_steps_mean=2.60
+12:14:19  INFO    [hellaswag] 5900/10042  acc=28.1%  4.5 ex/s  hrm_steps_mean=2.61
+12:14:33  INFO    [hellaswag] 5950/10042  acc=27.9%  4.5 ex/s  hrm_steps_mean=2.62
+12:14:45  INFO    [hellaswag] 6000/10042  acc=27.9%  4.5 ex/s  hrm_steps_mean=2.63
+12:15:04  INFO    [hellaswag] 6050/10042  acc=27.8%  4.5 ex/s  hrm_steps_mean=2.65
+12:15:18  INFO    [hellaswag] 6100/10042  acc=27.7%  4.5 ex/s  hrm_steps_mean=2.66
+12:15:32  INFO    [hellaswag] 6150/10042  acc=27.8%  4.5 ex/s  hrm_steps_mean=2.67
+12:15:42  INFO    [hellaswag] 6200/10042  acc=27.8%  4.5 ex/s  hrm_steps_mean=2.67
+12:15:52  INFO    [hellaswag] 6250/10042  acc=27.7%  4.5 ex/s  hrm_steps_mean=2.67
+12:16:07  INFO    [hellaswag] 6300/10042  acc=27.7%  4.5 ex/s  hrm_steps_mean=2.68
+12:16:24  INFO    [hellaswag] 6350/10042  acc=27.7%  4.4 ex/s  hrm_steps_mean=2.70
+12:16:37  INFO    [hellaswag] 6400/10042  acc=27.7%  4.4 ex/s  hrm_steps_mean=2.70
+12:16:49  INFO    [hellaswag] 6450/10042  acc=27.6%  4.4 ex/s  hrm_steps_mean=2.71
+12:17:00  INFO    [hellaswag] 6500/10042  acc=27.6%  4.4 ex/s  hrm_steps_mean=2.71
+12:17:10  INFO    [hellaswag] 6550/10042  acc=27.6%  4.4 ex/s  hrm_steps_mean=2.70
+12:17:21  INFO    [hellaswag] 6600/10042  acc=27.5%  4.4 ex/s  hrm_steps_mean=2.70
+12:17:35  INFO    [hellaswag] 6650/10042  acc=27.5%  4.4 ex/s  hrm_steps_mean=2.71
+12:17:49  INFO    [hellaswag] 6700/10042  acc=27.5%  4.4 ex/s  hrm_steps_mean=2.72
+12:18:00  INFO    [hellaswag] 6750/10042  acc=27.5%  4.4 ex/s  hrm_steps_mean=2.72
+12:18:14  INFO    [hellaswag] 6800/10042  acc=27.4%  4.4 ex/s  hrm_steps_mean=2.73
+12:18:31  INFO    [hellaswag] 6850/10042  acc=27.4%  4.4 ex/s  hrm_steps_mean=2.74
+12:18:41  INFO    [hellaswag] 6900/10042  acc=27.3%  4.4 ex/s  hrm_steps_mean=2.74
+12:18:53  INFO    [hellaswag] 6950/10042  acc=27.2%  4.4 ex/s  hrm_steps_mean=2.74
+12:19:08  INFO    [hellaswag] 7000/10042  acc=27.2%  4.4 ex/s  hrm_steps_mean=2.75
+12:19:22  INFO    [hellaswag] 7050/10042  acc=27.2%  4.4 ex/s  hrm_steps_mean=2.76
+12:19:36  INFO    [hellaswag] 7100/10042  acc=27.2%  4.4 ex/s  hrm_steps_mean=2.77
+12:19:49  INFO    [hellaswag] 7150/10042  acc=27.2%  4.4 ex/s  hrm_steps_mean=2.77
+12:19:59  INFO    [hellaswag] 7200/10042  acc=27.2%  4.4 ex/s  hrm_steps_mean=2.77
+12:20:11  INFO    [hellaswag] 7250/10042  acc=27.2%  4.4 ex/s  hrm_steps_mean=2.77
+12:20:28  INFO    [hellaswag] 7300/10042  acc=27.2%  4.4 ex/s  hrm_steps_mean=2.79
+12:20:40  INFO    [hellaswag] 7350/10042  acc=27.2%  4.4 ex/s  hrm_steps_mean=2.79
+12:20:51  INFO    [hellaswag] 7400/10042  acc=27.1%  4.4 ex/s  hrm_steps_mean=2.79
+12:21:07  INFO    [hellaswag] 7450/10042  acc=27.1%  4.4 ex/s  hrm_steps_mean=2.80
+12:21:19  INFO    [hellaswag] 7500/10042  acc=27.0%  4.3 ex/s  hrm_steps_mean=2.80
+12:21:28  INFO    [hellaswag] 7550/10042  acc=27.0%  4.4 ex/s  hrm_steps_mean=2.80
+12:21:43  INFO    [hellaswag] 7600/10042  acc=26.9%  4.3 ex/s  hrm_steps_mean=2.80
+12:21:58  INFO    [hellaswag] 7650/10042  acc=27.0%  4.3 ex/s  hrm_steps_mean=2.81
+12:22:13  INFO    [hellaswag] 7700/10042  acc=27.0%  4.3 ex/s  hrm_steps_mean=2.82
+12:22:24  INFO    [hellaswag] 7750/10042  acc=26.9%  4.3 ex/s  hrm_steps_mean=2.82
+12:22:37  INFO    [hellaswag] 7800/10042  acc=27.0%  4.3 ex/s  hrm_steps_mean=2.82
+12:22:50  INFO    [hellaswag] 7850/10042  acc=26.9%  4.3 ex/s  hrm_steps_mean=2.83
+12:23:03  INFO    [hellaswag] 7900/10042  acc=27.0%  4.3 ex/s  hrm_steps_mean=2.83
+12:23:17  INFO    [hellaswag] 7950/10042  acc=26.9%  4.3 ex/s  hrm_steps_mean=2.84
+12:23:28  INFO    [hellaswag] 8000/10042  acc=26.9%  4.3 ex/s  hrm_steps_mean=2.84
+12:23:41  INFO    [hellaswag] 8050/10042  acc=26.8%  4.3 ex/s  hrm_steps_mean=2.84
+12:23:53  INFO    [hellaswag] 8100/10042  acc=26.9%  4.3 ex/s  hrm_steps_mean=2.84
+12:24:08  INFO    [hellaswag] 8150/10042  acc=26.8%  4.3 ex/s  hrm_steps_mean=2.85
+12:24:24  INFO    [hellaswag] 8200/10042  acc=26.8%  4.3 ex/s  hrm_steps_mean=2.86
+12:24:37  INFO    [hellaswag] 8250/10042  acc=26.8%  4.3 ex/s  hrm_steps_mean=2.87
+12:24:50  INFO    [hellaswag] 8300/10042  acc=26.8%  4.3 ex/s  hrm_steps_mean=2.87
+12:25:00  INFO    [hellaswag] 8350/10042  acc=26.8%  4.3 ex/s  hrm_steps_mean=2.87
+12:25:15  INFO    [hellaswag] 8400/10042  acc=26.8%  4.3 ex/s  hrm_steps_mean=2.87
+12:25:27  INFO    [hellaswag] 8450/10042  acc=26.8%  4.3 ex/s  hrm_steps_mean=2.87
+12:25:42  INFO    [hellaswag] 8500/10042  acc=26.8%  4.3 ex/s  hrm_steps_mean=2.88
+12:25:56  INFO    [hellaswag] 8550/10042  acc=26.7%  4.3 ex/s  hrm_steps_mean=2.89
+12:26:12  INFO    [hellaswag] 8600/10042  acc=26.7%  4.3 ex/s  hrm_steps_mean=2.90
+12:26:28  INFO    [hellaswag] 8650/10042  acc=26.7%  4.3 ex/s  hrm_steps_mean=2.91
+12:26:41  INFO    [hellaswag] 8700/10042  acc=26.6%  4.2 ex/s  hrm_steps_mean=2.91
+12:26:54  INFO    [hellaswag] 8750/10042  acc=26.5%  4.2 ex/s  hrm_steps_mean=2.91
+12:27:07  INFO    [hellaswag] 8800/10042  acc=26.5%  4.2 ex/s  hrm_steps_mean=2.92
+12:27:22  INFO    [hellaswag] 8850/10042  acc=26.5%  4.2 ex/s  hrm_steps_mean=2.92
+12:27:38  INFO    [hellaswag] 8900/10042  acc=26.5%  4.2 ex/s  hrm_steps_mean=2.93
+12:27:50  INFO    [hellaswag] 8950/10042  acc=26.5%  4.2 ex/s  hrm_steps_mean=2.93
+12:28:06  INFO    [hellaswag] 9000/10042  acc=26.4%  4.2 ex/s  hrm_steps_mean=2.94
+12:28:18  INFO    [hellaswag] 9050/10042  acc=26.4%  4.2 ex/s  hrm_steps_mean=2.94
+12:28:34  INFO    [hellaswag] 9100/10042  acc=26.4%  4.2 ex/s  hrm_steps_mean=2.95
+12:28:43  INFO    [hellaswag] 9150/10042  acc=26.4%  4.2 ex/s  hrm_steps_mean=2.95
+12:28:59  INFO    [hellaswag] 9200/10042  acc=26.4%  4.2 ex/s  hrm_steps_mean=2.96
+12:29:13  INFO    [hellaswag] 9250/10042  acc=26.4%  4.2 ex/s  hrm_steps_mean=2.96
+12:29:29  INFO    [hellaswag] 9300/10042  acc=26.4%  4.2 ex/s  hrm_steps_mean=2.97
+12:29:42  INFO    [hellaswag] 9350/10042  acc=26.4%  4.2 ex/s  hrm_steps_mean=2.97
+12:29:53  INFO    [hellaswag] 9400/10042  acc=26.3%  4.2 ex/s  hrm_steps_mean=2.97
+12:30:08  INFO    [hellaswag] 9450/10042  acc=26.3%  4.2 ex/s  hrm_steps_mean=2.98
+12:30:21  INFO    [hellaswag] 9500/10042  acc=26.3%  4.2 ex/s  hrm_steps_mean=2.98
+12:30:37  INFO    [hellaswag] 9550/10042  acc=26.3%  4.2 ex/s  hrm_steps_mean=2.99
+12:30:51  INFO    [hellaswag] 9600/10042  acc=26.2%  4.2 ex/s  hrm_steps_mean=2.99
+12:31:08  INFO    [hellaswag] 9650/10042  acc=26.2%  4.2 ex/s  hrm_steps_mean=3.00
+12:31:21  INFO    [hellaswag] 9700/10042  acc=26.2%  4.2 ex/s  hrm_steps_mean=3.00
+12:31:35  INFO    [hellaswag] 9750/10042  acc=26.2%  4.2 ex/s  hrm_steps_mean=3.01
+12:31:48  INFO    [hellaswag] 9800/10042  acc=26.2%  4.2 ex/s  hrm_steps_mean=3.01
+12:32:02  INFO    [hellaswag] 9850/10042  acc=26.1%  4.2 ex/s  hrm_steps_mean=3.02
+12:32:16  INFO    [hellaswag] 9900/10042  acc=26.2%  4.2 ex/s  hrm_steps_mean=3.02
+12:32:32  INFO    [hellaswag] 9950/10042  acc=26.2%  4.2 ex/s  hrm_steps_mean=3.03
+12:32:49  INFO    [hellaswag] 10000/10042  acc=26.2%  4.1 ex/s  hrm_steps_mean=3.04
+12:32:56  INFO    [hellaswag] 10042/10042  acc=26.2%  4.1 ex/s  hrm_steps_mean=3.03
+12:32:56  INFO
+============================================================
+12:32:56  INFO  Benchmark: PIQA
+12:32:56  INFO  ============================================================
+12:32:56  INFO  Loading PIQA …
+12:32:56  INFO    PIQA: 1838 examples
+12:33:00  INFO    [piqa] 50/1838  acc=64.0%  14.2 ex/s  hrm_steps_mean=1.28
+12:33:04  INFO    [piqa] 100/1838  acc=61.0%  13.1 ex/s  hrm_steps_mean=1.52
+12:33:09  INFO    [piqa] 150/1838  acc=61.3%  12.2 ex/s  hrm_steps_mean=1.76
+12:33:14  INFO    [piqa] 200/1838  acc=61.0%  11.8 ex/s  hrm_steps_mean=1.80
+12:33:19  INFO    [piqa] 250/1838  acc=59.6%  11.1 ex/s  hrm_steps_mean=1.99
+12:33:24  INFO    [piqa] 300/1838  acc=59.0%  10.7 ex/s  hrm_steps_mean=2.11
+12:33:29  INFO    [piqa] 350/1838  acc=58.3%  10.9 ex/s  hrm_steps_mean=2.06
+12:33:33  INFO    [piqa] 400/1838  acc=60.0%  10.9 ex/s  hrm_steps_mean=2.08
+12:33:38  INFO    [piqa] 450/1838  acc=60.0%  10.8 ex/s  hrm_steps_mean=2.12
+12:33:43  INFO    [piqa] 500/1838  acc=59.0%  10.7 ex/s  hrm_steps_mean=2.15
+12:33:47  INFO    [piqa] 550/1838  acc=59.3%  10.9 ex/s  hrm_steps_mean=2.08
+12:33:50  INFO    [piqa] 600/1838  acc=59.2%  11.2 ex/s  hrm_steps_mean=1.99
+12:33:55  INFO    [piqa] 650/1838  acc=59.1%  11.1 ex/s  hrm_steps_mean=2.01
+12:34:00  INFO    [piqa] 700/1838  acc=58.9%  11.1 ex/s  hrm_steps_mean=2.02
+12:34:03  INFO    [piqa] 750/1838  acc=58.1%  11.3 ex/s  hrm_steps_mean=1.95
+12:34:08  INFO    [piqa] 800/1838  acc=58.0%  11.2 ex/s  hrm_steps_mean=1.96
+12:34:12  INFO    [piqa] 850/1838  acc=57.5%  11.2 ex/s  hrm_steps_mean=1.97
+12:34:17  INFO    [piqa] 900/1838  acc=57.6%  11.2 ex/s  hrm_steps_mean=1.96
+12:34:21  INFO    [piqa] 950/1838  acc=58.0%  11.2 ex/s  hrm_steps_mean=1.95
+12:34:25  INFO    [piqa] 1000/1838  acc=57.8%  11.3 ex/s  hrm_steps_mean=1.94
+12:34:29  INFO    [piqa] 1050/1838  acc=57.7%  11.4 ex/s  hrm_steps_mean=1.91
+12:34:33  INFO    [piqa] 1100/1838  acc=58.0%  11.4 ex/s  hrm_steps_mean=1.89
+12:34:39  INFO    [piqa] 1150/1838  acc=58.3%  11.3 ex/s  hrm_steps_mean=1.92
+12:34:42  INFO    [piqa] 1200/1838  acc=58.7%  11.3 ex/s  hrm_steps_mean=1.88
+12:34:47  INFO    [piqa] 1250/1838  acc=58.3%  11.3 ex/s  hrm_steps_mean=1.88
+12:34:52  INFO    [piqa] 1300/1838  acc=58.2%  11.3 ex/s  hrm_steps_mean=1.88
+12:34:55  INFO    [piqa] 1350/1838  acc=57.8%  11.4 ex/s  hrm_steps_mean=1.85
+12:35:01  INFO    [piqa] 1400/1838  acc=57.6%  11.2 ex/s  hrm_steps_mean=1.88
+12:35:07  INFO    [piqa] 1450/1838  acc=57.4%  11.1 ex/s  hrm_steps_mean=1.91
+12:35:11  INFO    [piqa] 1500/1838  acc=58.0%  11.1 ex/s  hrm_steps_mean=1.90
+12:35:15  INFO    [piqa] 1550/1838  acc=57.8%  11.2 ex/s  hrm_steps_mean=1.87
+12:35:19  INFO    [piqa] 1600/1838  acc=58.2%  11.2 ex/s  hrm_steps_mean=1.85
+12:35:24  INFO    [piqa] 1650/1838  acc=58.2%  11.2 ex/s  hrm_steps_mean=1.86
+12:35:30  INFO    [piqa] 1700/1838  acc=58.1%  11.1 ex/s  hrm_steps_mean=1.89
+12:35:35  INFO    [piqa] 1750/1838  acc=58.5%  11.0 ex/s  hrm_steps_mean=1.89
+12:35:38  INFO    [piqa] 1800/1838  acc=58.2%  11.1 ex/s  hrm_steps_mean=1.86
+12:35:43  INFO    [piqa] 1838/1838  acc=58.1%  11.1 ex/s  hrm_steps_mean=1.87
+12:35:43  INFO
+============================================================
+12:35:43  INFO  Benchmark: WINOGRANDE
+12:35:43  INFO  ============================================================
+12:35:43  INFO  Loading WinoGrande …
+12:35:43  INFO    WinoGrande: 1267 examples
+12:35:47  INFO    [winogrande] 50/1267  acc=56.0%  11.8 ex/s  hrm_steps_mean=1.44
+12:35:51  INFO    [winogrande] 100/1267  acc=51.0%  11.5 ex/s  hrm_steps_mean=1.52
+12:35:55  INFO    [winogrande] 150/1267  acc=52.7%  12.4 ex/s  hrm_steps_mean=1.29
+12:35:58  INFO    [winogrande] 200/1267  acc=54.5%  12.9 ex/s  hrm_steps_mean=1.21
+12:36:01  INFO    [winogrande] 250/1267  acc=53.6%  13.8 ex/s  hrm_steps_mean=1.03
+12:36:04  INFO    [winogrande] 300/1267  acc=51.0%  13.9 ex/s  hrm_steps_mean=1.02
+12:36:07  INFO    [winogrande] 350/1267  acc=51.4%  14.1 ex/s  hrm_steps_mean=0.97
+12:36:12  INFO    [winogrande] 400/1267  acc=50.7%  13.6 ex/s  hrm_steps_mean=1.11
+12:36:15  INFO    [winogrande] 450/1267  acc=51.1%  14.0 ex/s  hrm_steps_mean=1.04
+12:36:17  INFO    [winogrande] 500/1267  acc=51.4%  14.4 ex/s  hrm_steps_mean=0.96
+12:36:21  INFO    [winogrande] 550/1267  acc=50.7%  14.5 ex/s  hrm_steps_mean=0.95
+12:36:25  INFO    [winogrande] 600/1267  acc=51.0%  14.2 ex/s  hrm_steps_mean=1.01
+12:36:28  INFO    [winogrande] 650/1267  acc=51.1%  14.3 ex/s  hrm_steps_mean=0.98
+12:36:32  INFO    [winogrande] 700/1267  acc=51.3%  14.1 ex/s  hrm_steps_mean=1.02
+12:36:35  INFO    [winogrande] 750/1267  acc=50.8%  14.3 ex/s  hrm_steps_mean=1.00
+12:36:38  INFO    [winogrande] 800/1267  acc=50.7%  14.3 ex/s  hrm_steps_mean=1.01
+12:36:42  INFO    [winogrande] 850/1267  acc=50.0%  14.3 ex/s  hrm_steps_mean=1.02
+12:36:47  INFO    [winogrande] 900/1267  acc=49.7%  14.0 ex/s  hrm_steps_mean=1.08
+12:36:50  INFO    [winogrande] 950/1267  acc=49.7%  14.1 ex/s  hrm_steps_mean=1.07
+12:36:53  INFO    [winogrande] 1000/1267  acc=49.7%  14.2 ex/s  hrm_steps_mean=1.05
+12:36:56  INFO    [winogrande] 1050/1267  acc=49.9%  14.3 ex/s  hrm_steps_mean=1.04
+12:36:59  INFO    [winogrande] 1100/1267  acc=50.2%  14.4 ex/s  hrm_steps_mean=1.02
+12:37:01  INFO    [winogrande] 1150/1267  acc=50.6%  14.7 ex/s  hrm_steps_mean=0.98
+12:37:03  INFO    [winogrande] 1200/1267  acc=50.8%  14.8 ex/s  hrm_steps_mean=0.95
+12:37:07  INFO    [winogrande] 1250/1267  acc=50.9%  14.8 ex/s  hrm_steps_mean=0.97
+12:37:08  INFO    [winogrande] 1267/1267  acc=50.7%  14.8 ex/s  hrm_steps_mean=0.95
+12:37:08  INFO
+============================================================
+12:37:08  INFO  Benchmark: NQ
+12:37:08  INFO  ============================================================
+12:37:08  INFO  Loading Natural Questions (dev, short answers) …
+12:37:08  INFO    NQ first-row keys: ['question', 'answer']
+12:37:08  INFO      question: str = 'when was the last time anyone was on the moon'
+12:37:08  INFO      answer: list = ['14 December 1972 UTC', 'December 1972']
+12:37:08  INFO    NQ: 3610 examples loaded  (0 skipped — no short answer)
+12:37:22  INFO    [nq] 50/3610  acc=0.0%  3.6 ex/s  hrm_steps_mean=0.80
+12:37:38  INFO    [nq] 100/3610  acc=0.0%  3.3 ex/s  hrm_steps_mean=0.77
+12:37:51  INFO    [nq] 150/3610  acc=0.0%  3.5 ex/s  hrm_steps_mean=0.71
+12:38:08  INFO    [nq] 200/3610  acc=0.0%  3.3 ex/s  hrm_steps_mean=0.77
+12:38:28  INFO    [nq] 250/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.92
+12:38:40  INFO    [nq] 300/3610  acc=0.3%  3.3 ex/s  hrm_steps_mean=0.82
+12:38:55  INFO    [nq] 350/3610  acc=0.3%  3.3 ex/s  hrm_steps_mean=0.80
+12:39:11  INFO    [nq] 400/3610  acc=0.2%  3.3 ex/s  hrm_steps_mean=0.85
+12:39:30  INFO    [nq] 450/3610  acc=0.2%  3.2 ex/s  hrm_steps_mean=0.89
+12:39:48  INFO    [nq] 500/3610  acc=0.2%  3.1 ex/s  hrm_steps_mean=0.91
+12:40:04  INFO    [nq] 550/3610  acc=0.2%  3.1 ex/s  hrm_steps_mean=0.88
+12:40:17  INFO    [nq] 600/3610  acc=0.2%  3.2 ex/s  hrm_steps_mean=0.82
+12:40:32  INFO    [nq] 650/3610  acc=0.2%  3.2 ex/s  hrm_steps_mean=0.79
+12:40:46  INFO    [nq] 700/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.76
+12:41:00  INFO    [nq] 750/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.72
+12:41:15  INFO    [nq] 800/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.73
+12:41:26  INFO    [nq] 850/3610  acc=0.1%  3.3 ex/s  hrm_steps_mean=0.70
+12:41:52  INFO    [nq] 900/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.77
+12:42:07  INFO    [nq] 950/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.77
+12:42:23  INFO    [nq] 1000/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.76
+12:42:38  INFO    [nq] 1050/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.74
+12:42:52  INFO    [nq] 1100/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.73
+12:43:06  INFO    [nq] 1150/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.75
+12:43:18  INFO    [nq] 1200/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.72
+12:43:31  INFO    [nq] 1250/3610  acc=0.1%  3.3 ex/s  hrm_steps_mean=0.72
+12:43:47  INFO    [nq] 1300/3610  acc=0.1%  3.3 ex/s  hrm_steps_mean=0.72
+12:44:04  INFO    [nq] 1350/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.72
+12:44:19  INFO    [nq] 1400/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.72
+12:44:31  INFO    [nq] 1450/3610  acc=0.1%  3.3 ex/s  hrm_steps_mean=0.70
+12:44:52  INFO    [nq] 1500/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.72
+12:45:06  INFO    [nq] 1550/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.73
+12:45:24  INFO    [nq] 1600/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.76
+12:45:41  INFO    [nq] 1650/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.75
+12:45:58  INFO    [nq] 1700/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.76
+12:46:17  INFO    [nq] 1750/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.75
+12:46:29  INFO    [nq] 1800/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.74
+12:46:47  INFO    [nq] 1850/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.75
+12:47:01  INFO    [nq] 1900/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.74
+12:47:24  INFO    [nq] 1950/3610  acc=0.1%  3.2 ex/s  hrm_steps_mean=0.77
+12:47:43  INFO    [nq] 2000/3610  acc=0.1%  3.1 ex/s  hrm_steps_mean=0.77
+12:48:08  INFO    [nq] 2050/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:48:26  INFO    [nq] 2100/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.79
+12:48:42  INFO    [nq] 2150/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:48:56  INFO    [nq] 2200/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:49:08  INFO    [nq] 2250/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:49:27  INFO    [nq] 2300/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:49:43  INFO    [nq] 2350/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:50:01  INFO    [nq] 2400/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:50:15  INFO    [nq] 2450/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.77
+12:50:28  INFO    [nq] 2500/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.77
+12:50:50  INFO    [nq] 2550/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:51:06  INFO    [nq] 2600/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.77
+12:51:25  INFO    [nq] 2650/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:51:37  INFO    [nq] 2700/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.77
+12:51:50  INFO    [nq] 2750/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.77
+12:52:06  INFO    [nq] 2800/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.76
+12:52:24  INFO    [nq] 2850/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.77
+12:52:47  INFO    [nq] 2900/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:52:59  INFO    [nq] 2950/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:53:14  INFO    [nq] 3000/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:53:32  INFO    [nq] 3050/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.78
+12:53:49  INFO    [nq] 3100/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.79
+12:54:08  INFO    [nq] 3150/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.80
+12:54:22  INFO    [nq] 3200/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.79
+12:54:36  INFO    [nq] 3250/3610  acc=0.0%  3.1 ex/s  hrm_steps_mean=0.79
+12:54:50  INFO    [nq] 3300/3610  acc=0.1%  3.1 ex/s  hrm_steps_mean=0.79
+12:55:09  INFO    [nq] 3350/3610  acc=0.1%  3.1 ex/s  hrm_steps_mean=0.80
+12:55:26  INFO    [nq] 3400/3610  acc=0.1%  3.1 ex/s  hrm_steps_mean=0.80
+12:55:40  INFO    [nq] 3450/3610  acc=0.1%  3.1 ex/s  hrm_steps_mean=0.81
+12:55:56  INFO    [nq] 3500/3610  acc=0.1%  3.1 ex/s  hrm_steps_mean=0.81
+12:56:15  INFO    [nq] 3550/3610  acc=0.1%  3.1 ex/s  hrm_steps_mean=0.81
+12:56:32  INFO    [nq] 3600/3610  acc=0.1%  3.1 ex/s  hrm_steps_mean=0.80
+12:56:34  INFO    [nq] 3610/3610  acc=0.1%  3.1 ex/s  hrm_steps_mean=0.80
+
+========================================================================
+                            ACCURACY RESULTS
+========================================================================
+  Benchmark       Accuracy   Correct   Total  vs. Random
+  --------------  --------  --------  ------  ----------
+  hellaswag          26.2%      2627   10042      +1.2pp
+  piqa               58.1%      1068    1838      +8.1pp
+  winogrande         50.7%       643    1267      +0.7pp
+  nq                  0.1%         2    3610         n/a
+  --------------  --------  --------  ------  ----------
+  OVERALL            25.9%      4340   16757
+========================================================================
+
+========================================================================
+               HRM REASONING STEPS  (halt_bias = +0.350)
+========================================================================
+  Benchmark           Mean   Std Dev    Min    Max   # Passes
+  --------------  --------  --------  -----  -----  ---------
+  hellaswag          3.033     6.263      0     16      40168
+  piqa               1.866     5.132      0     16       3676
+  winogrande         0.954     3.777      0     16       2534
+  nq                 0.804     3.017      0     16       3610
+  (max possible steps per pass = 16)
+========================================================================
+
+12:56:35  INFO    Chart saved → hrm_steps_chart.png
