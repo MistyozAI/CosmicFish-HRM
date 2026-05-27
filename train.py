@@ -57,8 +57,8 @@ def get_args():
     parser.add_argument('--dataset_names', type=str, nargs='+', default=None)
 
     parser.add_argument('--batch_size', type=int, default=64)
-    parser.add_argument('--gradient_accumulation_steps', type=int, default=1)
-    parser.add_argument('--max_iters', type=int, default=50000)
+    parser.add_argument('--gradient_accumulation_steps', type=int, default=2)
+    parser.add_argument('--max_iters', type=int, default=200000)
     parser.add_argument('--learning_rate', type=float, default=3e-4)
     parser.add_argument('--weight_decay', type=float, default=0.1)
     parser.add_argument('--beta1', type=float, default=0.9)
@@ -66,7 +66,7 @@ def get_args():
     parser.add_argument('--grad_clip', type=float, default=1.0)
 
     parser.add_argument('--warmup_iters', type=int, default=2000)
-    parser.add_argument('--lr_decay_iters', type=int, default=100000)
+    parser.add_argument('--lr_decay_iters', type=int, default=200000)
     parser.add_argument('--min_lr', type=float, default=3e-5)
 
     parser.add_argument('--eval_interval', type=int, default=500)
