@@ -148,6 +148,8 @@ tqdm
 termcolor
 matplotlib
 ```
+
+**Hugging Face:** [MistyozAI/CosmicFish-300M](https://huggingface.co/MistyozAI/CosmicFish-300M)
 ---
 
 Mistyoz AI, Hyderabad
