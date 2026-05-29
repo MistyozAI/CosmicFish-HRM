@@ -148,8 +148,14 @@ tqdm
 termcolor
 matplotlib
 ```
+---
 
 Hugging Face: [MistyozAI/CosmicFish-HRM](https://huggingface.co/MistyozAI/CosmicFish-HRM)
+
+Pytorch File: [CF.pt](https://drive.google.com/file/d/1He4PAIixuL5EMmzmxV4nq-OLI8xlp15Y/view?usp=sharing)
+
+Pytorch File: [Base.pt](https://drive.google.com/file/d/1Apx898RYOtyDSjd_9IhoIGlTbNYf3N7H/view?usp=sharing)
+
 ---
 
 Mistyoz AI, Hyderabad
