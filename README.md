@@ -1,5 +1,7 @@
 # CosmicFish-HRM
 
+**Paper:** [CosmicFish-HRM: Adaptive Reasoning via Hierarchical Recurrent Mechanisms in Compact Language Models](https://arxiv.org/abs/2605.28919)
+
 A language model with a Hierarchical Recurrent Module (HRM) that learns to allocate compute dynamically at inference time. Built at Mistyoz AI.
 
 ## Architecture
