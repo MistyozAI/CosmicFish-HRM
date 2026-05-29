@@ -1,0 +1,30 @@
+{
+  "model_type": "cosmicfish_hrm",
+  "architectures": [
+    "HRMCosmicFish"
+  ],
+  "vocab_size": 50304,
+  "n_embd": 448,
+  "block_size": 512,
+  "n_head": 8,
+  "n_kv_head": 4,
+  "n_input_layers": 6,
+  "n_output_layers": 6,
+  "hrm_H_layers": 4,
+  "hrm_L_layers": 4,
+  "hrm_H_cycles": 2,
+  "hrm_L_cycles": 2,
+  "hrm_max_steps": 16,
+  "hrm_exploration_prob": 0.05,
+  "dropout": 0.1,
+  "bias": false,
+  "use_rotary": true,
+  "use_gqa": true,
+  "use_swiglu": true,
+  "eps": 1e-05,
+  "torch_dtype": "float32",
+  "transformers_version": "4.41.0",
+  "pad_token_id": 50256,
+  "bos_token_id": 50256,
+  "eos_token_id": 50256
+}
